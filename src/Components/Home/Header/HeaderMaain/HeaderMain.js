@@ -15,16 +15,19 @@ export const HeaderMain = () => {
           JOIN US
         </button>
       </div>
-      <div className="col-md-6 text-center pt-5">
-        <iframe
-          width="360"
-          height="215"
-          src="https://www.youtube.com/embed/5CuWcIXy5TQ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+      <div className="col-md-6 text-center pt-5 ">
+        <div className="pt-5">
+          <iframe
+            width="350"
+            height="200"
+            className="mt-5"
+            src="https://www.youtube.com/embed/wkTFd3QZSP0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
     </div>
   );
