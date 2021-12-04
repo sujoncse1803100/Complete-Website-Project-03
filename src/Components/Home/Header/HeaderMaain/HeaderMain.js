@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const HeaderMain = () => {
   return (
@@ -11,9 +12,11 @@ export const HeaderMain = () => {
           quibusdam, deserunt neque tempora quo tenetur commodi cumque repellat.
           Temporibus, commodi voluptate!
         </p>
-        <button style={{ width: "150px" }} className="btn btn-warning mt-5">
-          JOIN US
-        </button>
+        <Link to="/pricing">
+          <button style={{ width: "150px" }} className="btn btn-warning mt-5">
+            JOIN US
+          </button>
+        </Link>
       </div>
       <div className="col-md-6 text-center pt-5 ">
         <div className="pt-5">
